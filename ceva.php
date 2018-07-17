@@ -33,7 +33,10 @@ myTest();
  
  $e=5;
  $f=2;
- echo $e/$f;
+ echo $e/$f."<br>";
+ 
+ echo $e**$f."<br>";
+ echo "comenzile de git functioneaa";
 	
 ?>
 
