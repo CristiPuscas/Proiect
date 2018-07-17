@@ -30,6 +30,10 @@ myTest();
 
  myTest2();
  echo '<p>Variabila c din functie este: $c</p>';
+ 
+ $e=5;
+ $f=2;
+ echo $e/$f;
 	
 ?>
 
