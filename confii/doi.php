@@ -38,8 +38,9 @@
 $x=5;
 $y=2;
 echo $x/$y."<br>";
-echo $x%$y;
-if  $x==#y
+echo $x%$y."<br>";
+echo ++$x."<br>";
+print --$y;
 
 ?>
 
