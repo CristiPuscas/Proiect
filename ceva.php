@@ -326,10 +326,21 @@ $b->bar();
 
 B::bar();
 
+echo "<br>";
+echo "<hr>";
 
+$myfile = fopen("welcome.txt", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("welcome.txt"));
+fclose($myfile);
 
+echo "<br>";
+echo "<hr>";
 
+$str = "<h1>Hello WorldÆØÅ!</h1>";
 
+$newstr = filter_var($str, FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH);
+echo $newstr;
+?>
 
 
 
